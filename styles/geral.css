@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 2.5rem;
+}
+
+#botao_voltar_listagem, #botao_ir_form {
+    border: solid 1px rgb(0, 139, 0);
+    text-decoration: none;
+    color: rgb(0, 139, 0);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+#botao_salvar {
+    color: white;
+    background-color: rgb(0, 190, 0);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    border: none;
+    align-self: flex-end;
+    width: min-content;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form, table {
+    margin-top: 30px;
+}
+
+fieldset {
+    border: solid 1px green;
+    padding: 20px 50px;
+}
+
+legend {
+    color: green;
+    font-size: 35px;
+    text-align: center;
+}
+
+#div_tabela {
+    margin-top: 15px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+#div_tabela td {
+    padding: 10px 20px;
+    font-size: 25px;
+    white-space: nowrap;
+    border: solid 0.5px rgba(128, 128, 128, 0.363);
+}
+
+#div_tabela td a {
+    color: black;
+    text-decoration: underline;
+}
+
+#td_funcoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+
+.fa-pencil {
+    color: rgb(20, 124, 20);
+}
+
+.fa-trash {
+    color: red;
+}
+
+#aviso {
+    position: absolute;
+    right: 40px;
+    top: 180px;
+    font-size: 25px;
+    color: red;
+}
+
+input[type=radio] {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+    vertical-align: inherit;
+
+}
+
+#fisico {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

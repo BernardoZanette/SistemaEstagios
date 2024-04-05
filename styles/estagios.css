@@ -1,0 +1,20 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+#div_tabela_estagios {
+    margin-top: 15px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+td {
+    font-size: 20px;
+    padding: 5px 10px;
+    white-space: nowrap;
+    border: solid 0.5px rgba(128, 128, 128, 0.363);
+}
+
+td a {
+    color: black;
+    text-decoration: underline;
+}

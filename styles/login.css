@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+#all {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#login {
+    margin-bottom: 50px;
+}
+
+#logo {
+    height: 500px;
+    width: 350px;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#right{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(49,161,72);
+    justify-content: center;
+}
+#form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 510px;
+    height: 430px;
+    border-radius: 45px;
+    border: 2px solid white;
+}
+
+#form>* {
+    font-size: 30px;
+    height: 40px;
+    width: 390px;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px white;
+}
+#form>*::placeholder {
+    color: white;
+}
+
+#btn {
+    padding: 20px;
+    height: 70px;
+    width: 310px !important;
+    font-size: 21px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 38px;
+    margin-bottom: 0px;
+}
+h1 {
+    margin: 50px 0px 0px 0px;
+    word-wrap: break-word;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(7, 172, 35);
+}
+#login:focus {
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+#senha:focus {
+    color: black;
+    outline: none;
+}
